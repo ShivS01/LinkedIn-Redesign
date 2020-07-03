@@ -1,0 +1,239 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+/* body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell,
+    Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Lucida Grande, Helvetica, Arial, sans-serif;
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-container {
+  padding: 0px 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 52px;
+  background-color: #283e4a;
+}
+.logo {
+  height: 34px;
+  width: 34px;
+  margin-right: 20px;
+  border-radius: 2px;
+}
+
+.left-nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: center;
+  height: inherit;
+}
+
+.right-nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: inherit;
+}
+
+.search {
+  background-color: #e1e9ee;
+  height: 34px;
+  width: 280px;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.search form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: inherit;
+  width: inherit;
+}
+
+.search-icon {
+  /* height: 15px; */
+  width: 18px;
+}
+
+input {
+  border: none;
+  outline: none;
+  background-color: #e1e9ee;
+  height: inherit;
+  width: inherit;
+}
+input::-webkit-input-placeholder {
+  font-size: 15px;
+  line-height: 3;
+}
+
+input[type="text" i] {
+  padding-top: 5px;
+}
+.icon-container {
+  /* padding: 5px; */
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.main-nav {
+  height: inherit;
+  width: inherit;
+}
+
+.main-nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+  width: inherit;
+  list-style: none;
+}
+
+li {
+  height: inherit;
+  width: inherit;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  color: white;
+}
+
+.icons {
+  height: 24px;
+  width: 24px;
+}
+.prem-box {
+  width: 120px;
+  font-size: 0.8rem;
+  color: rgb(179, 160, 52);
+  text-align: center;
+  justify-content: center;
+}
+span {
+  font-size: 12px;
+}
+
+.avatar {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.expand {
+  height: 16px;
+  padding-top: 6px;
+}
+
+.feed {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post {
+  width: 550px;
+  /* border: black; */
+  /* border-style: solid; */
+  /* border-width: 2px; */
+  margin: 10px;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.profile {
+  display: flex;
+}
+
+.profile img,
+.profile div {
+  padding: 1px;
+  margin: 1px;
+}
+
+.profile div {
+  width: 200px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.post button {
+  border-style: none;
+  background-color: inherit;
+  outline: none;
+  padding: 10px;
+}
+
+.more-options {
+  border-radius: 50%;
+}
+
+.more-options :hover {
+  background-color: grey;
+  border-radius: 50%;
+  transition: background-color 150ms;
+}
+
+.follow {
+  color: #0073b1;
+}
+
+.follow:hover {
+  background-color: #6fb9e0;
+  transition: background-color 150ms;
+}
+.details span {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.title {
+  font-size: 1rem;
+  color: black !important;
+  font-weight: 800;
+}
+
+.social-bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-bar div {
+  padding: 5px;
+}
+
+hr {
+  opacity: 0.2;
+}
