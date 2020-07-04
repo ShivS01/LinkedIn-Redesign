@@ -277,6 +277,14 @@ hr {
   opacity: 0.2;
 }
 
+.send {
+  display: none !important;
+}
+
+.User-mob {
+  padding: 10px;
+  display: none;
+}
 @media only screen and (max-width: 600px) {
   header {
     /* width: 600px; */
@@ -290,7 +298,44 @@ hr {
   .Jobs,
   .Notifications,
   .Work,
-  .prem-box {
+  .prem-box,
+  .User {
     display: none;
+  }
+
+  .Messaging span {
+    display: none;
+  }
+  .post {
+    width: 100vw;
+  }
+  .left-nav-bar,
+  .right-nav-bar {
+    width: inherit;
+  }
+  .main-nav {
+    width: inherit;
+  }
+  ul {
+    padding: 2px;
+  }
+  .search {
+    width: 80vw;
+  }
+  .status img {
+    width: 95vw;
+  }
+  .right-component {
+    display: none;
+  }
+  .send {
+    display: flex !important;
+  }
+  .User-mob {
+    width: 10vw;
+    display: block;
+  }
+  .Messaging {
+    width: 10vw;
   }
 }
