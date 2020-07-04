@@ -259,7 +259,6 @@ li {
 .social-bar div {
   padding: 8px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -299,11 +298,11 @@ hr {
   padding: 0;
 }
 .post {
-  margin: 0;
+  margin: 10px 0;
 }
 
 .navbar li {
-  width: 25vw;
+  width: 20vw;
 }
 
 @media only screen and (max-width: 600px) {
@@ -311,6 +310,7 @@ hr {
     /* width: 600px; */
     padding: 0;
   }
+
   .logo {
     display: none;
   }
@@ -330,6 +330,15 @@ hr {
   .post {
     width: 100vw;
   }
+  .status img {
+    width: 95vw;
+  }
+  .social-bar {
+    width: 100vw;
+  }
+  .social-bar div {
+    width: 25vw;
+  }
   .left-nav-bar,
   .right-nav-bar {
     width: inherit;
@@ -343,9 +352,7 @@ hr {
   .search {
     width: 80vw;
   }
-  .status img {
-    width: 95vw;
-  }
+
   .right-component {
     display: none;
   }
