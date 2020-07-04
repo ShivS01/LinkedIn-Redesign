@@ -345,8 +345,11 @@ hr {
     width: 100vw;
   }
   .social-bar div {
+    display: flex;
+    flex-direction: column;
     width: 25vw;
   }
+  .social-bar column-span: ;
   .left-nav-bar,
   .right-nav-bar {
     width: inherit;
