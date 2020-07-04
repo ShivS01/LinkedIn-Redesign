@@ -285,6 +285,27 @@ hr {
   padding: 10px;
   display: none;
 }
+
+.navbar {
+  overflow: hidden;
+  background-color: #f0efef;
+
+  position: sticky;
+  bottom: 0;
+  width: 100vw;
+  display: none;
+}
+.navbar ul {
+  padding: 0;
+}
+.post {
+  margin: 0;
+}
+
+.navbar li {
+  width: 25vw;
+}
+
 @media only screen and (max-width: 600px) {
   header {
     /* width: 600px; */
@@ -337,5 +358,8 @@ hr {
   }
   .Messaging {
     width: 10vw;
+  }
+  .navbar {
+    display: flex;
   }
 }
