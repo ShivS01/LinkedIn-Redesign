@@ -30,7 +30,7 @@ body {
   border-radius: 2px;
 }
 
-.User-mob button{
+.User-mob button {
   background-color: inherit;
   box-shadow: none;
   margin: 0;
@@ -359,8 +359,7 @@ hr {
     flex-direction: column;
     width: 25vw;
   }
-  .social-bar column-span: ;
-  .left-nav-bar,
+  .social-bar .left-nav-bar,
   .right-nav-bar {
     width: inherit;
   }
@@ -392,7 +391,7 @@ hr {
   }
 }
 
-.overlay{
+.overlay {
   position: absolute;
   width: 100vw;
   height: 100vh;
@@ -401,7 +400,7 @@ hr {
   display: none;
 }
 
-.side-nav{
+.side-nav {
   position: absolute;
   z-index: 2;
   top: 0;
@@ -412,7 +411,7 @@ hr {
   display: none;
 }
 
-.user-info{
+.user-info {
   display: flex;
   padding: 15px;
   flex-direction: column;
@@ -421,31 +420,32 @@ hr {
   background-color: #5691b1;
 }
 
-.side-nav svg{
+.side-nav svg {
   width: 25px;
   height: 25px;
 }
 
-.row-1, .row-2 {
+.row-1,
+.row-2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.row-2{
+.row-2 {
   margin-top: 15px;
 }
 
-.menu ul{
+.menu ul {
   padding-left: 15px;
   list-style: none;
 }
 
-a:hover{
+a:hover {
   color: orangered;
 }
 
-.menu li{
+.menu li {
   color: black;
   width: auto;
   margin-top: 20px;
@@ -455,20 +455,20 @@ a:hover{
   justify-content: flex-start;
 }
 
-.row-1 .avatar{
+.row-1 .avatar {
   width: 60px;
   height: 60px;
 }
 
-.show{
+.show {
   display: block;
   animation: side 0.5s ease-in-out forwards;
 }
 
-.show-nav{
+.show-nav {
   animation: side 0.5s ease-in-out forwards;
 }
 
-.hide-nav{
+.hide-nav {
   animation: side 0.5s ease-in-out backwards;
 }
