@@ -328,6 +328,9 @@ hr {
     /* width: 600px; */
     padding: 0;
   }
+  .overlay {
+    display: none;
+  }
 
   .logo {
     display: none;
