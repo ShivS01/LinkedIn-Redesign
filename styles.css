@@ -330,6 +330,7 @@ hr {
   }
   .overlay {
     display: none;
+    position: fixed;
   }
 
   .logo {
