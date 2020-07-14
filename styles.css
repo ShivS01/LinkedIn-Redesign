@@ -398,7 +398,7 @@ hr {
   height: 100vh;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.45);
-  /* display: none; */
+  display: none;
 }
 
 .side-nav{
@@ -457,4 +457,17 @@ a:hover{
 .row-1 .avatar{
   width: 60px;
   height: 60px;
+}
+
+.show{
+  display: block;
+  animation: side 0.5s ease-in-out forwards;
+}
+
+.show-nav{
+  animation: side 0.5s ease-in-out forwards;
+}
+
+.hide-nav{
+  animation: side 0.5s ease-in-out backwards;
 }
