@@ -569,9 +569,9 @@ filter does not work for some reason, causing 2 icons to remain white while othe
   z-index: 12;
   top: 0;
   left: 0;
-  width: 300px;
+  width: 0;
   height: 100vh;
-  transition: 0.5;
+  transition: ease-in-out 5s;
   background-color: white;
 }
 
@@ -611,7 +611,7 @@ filter does not work for some reason, causing 2 icons to remain white while othe
 }
 
 .show {
-  display: flex;
+  display: block;
 }
 
 .group-icon {

@@ -17,8 +17,13 @@ const sideBar = document.querySelector(".side-nav");
 
 sideMenu.addEventListener("click", () => {
   overlay.classList.add("show");
+  sideBar.style.width = "300px";
 });
 
 overlay.addEventListener("click", (e) => {
-  if (e.target == overlay) overlay.classList.remove("show");
+  if (e.target == overlay) {
+    sideBar.style.width = "0px";
+
+    overlay.classList.remove("show");
+  }
 });
