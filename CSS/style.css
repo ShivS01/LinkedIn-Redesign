@@ -560,6 +560,7 @@ filter does not work for some reason, causing 2 icons to remain white while othe
   height: 100vh;
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.45);
+  overflow-y: hidden;
   display: none;
 }
 
