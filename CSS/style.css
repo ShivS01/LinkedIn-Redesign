@@ -203,7 +203,11 @@ body {
 }
 .mobile-nav-bar .nav-icons {
   width: 100%;
+  filter: invert(0.5);
 }
+/* 
+filter does not work for some reason, causing 2 icons to remain white while others are black
+
 .mobile-nav-bar .home-icon,
 .mobile-nav-bar .user-icon {
   filter: unset;
@@ -211,7 +215,7 @@ body {
 .mobile-nav-bar .suit-icon,
 .mobile-nav-bar .notify-icon {
   filter: invert(1);
-}
+} */
 .container-wrap {
   padding: 1em;
   width: 100%;

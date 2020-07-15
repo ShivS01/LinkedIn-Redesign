@@ -17,10 +17,10 @@ const overlay = document.querySelector(".overlay");
 
 sideMenu.addEventListener("click", () => {
   overlay.classList.add("show");
-  nav.classList.add("show");
+  //   nav.classList.add("show");
 });
 
 overlay.addEventListener("click", () => {
-  nav.classList.remove("show");
+  //   nav.classList.remove("show");
   overlay.classList.remove("show");
 });
