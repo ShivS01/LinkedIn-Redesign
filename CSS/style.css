@@ -545,3 +545,114 @@ body {
     font-size: 0.95em;
   }
 }
+
+/* rgb(60, 102, 124); */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.45);
+  display: none;
+}
+
+.side-nav {
+  position: absolute;
+  z-index: 12;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  background-color: white;
+  animation: ease-in-out 1s forwards;
+}
+
+.user-info {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-color: #5691b1;
+}
+
+.row-1,
+.row-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row-2 {
+  margin-top: 15px;
+}
+
+hr {
+  background-color: whitesmoke;
+  border-width: 1px;
+}
+.menu li {
+  color: black;
+  width: auto;
+  /* margin-top: 20px; */
+  padding: 0;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.show {
+  display: block;
+}
+
+.group-icon {
+  background-image: url("svgs/user-friends.svg");
+  transform: scale(0.5);
+}
+.secret-icon {
+  background-image: url("svgs/lock-alt.svg");
+  transform: scale(0.5);
+}
+.channel-icon {
+  background-image: url("svgs/bullhorn.svg");
+  transform: scale(0.5);
+}
+.contact-icon {
+  background-image: url("svgs/user.svg");
+  transform: scale(0.5);
+}
+.call-icon {
+  background-image: url("svgs/phone-alt.svg");
+  transform: scale(0.5);
+}
+.saved-icon {
+  background-image: url("svgs/bookmark.svg");
+  transform: scale(0.5);
+}
+.setting-icon {
+  background-image: url("svgs/cog.svg");
+  transform: scale(0.5);
+}
+.invite-icon {
+  background-image: url("svgs/user-plus.svg");
+  transform: scale(0.5);
+}
+.help-icon {
+  background-image: url("svgs/question-circle.svg");
+  transform: scale(0.5);
+}
+.theme-icon {
+  background-image: url("svgs/moon.svg");
+  filter: invert(1);
+  transform: scale(0.5);
+}
+.expand-icon {
+  background-image: url("svgs/chevron-down.svg");
+  filter: invert(1);
+  transform: scale(0.4);
+}
