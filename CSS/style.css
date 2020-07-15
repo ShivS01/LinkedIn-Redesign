@@ -553,7 +553,7 @@ filter does not work for some reason, causing 2 icons to remain white while othe
 /* rgb(60, 102, 124); */
 
 .overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -564,14 +564,13 @@ filter does not work for some reason, causing 2 icons to remain white while othe
 }
 
 .side-nav {
-  position: absolute;
+  position: fixed;
   z-index: 12;
   top: 0;
   left: 0;
   width: 300px;
   height: 100vh;
   background-color: white;
-  animation: ease-in-out 1s forwards;
 }
 
 .user-info {
@@ -611,7 +610,7 @@ hr {
 }
 
 .show {
-  display: block;
+  display: flex;
 }
 
 .group-icon {

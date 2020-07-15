@@ -24,11 +24,3 @@ overlay.addEventListener("click", () => {
   //   nav.classList.remove("show");
   overlay.classList.remove("show");
 });
-
-sideMenu.addEventListener(
-  "touchmove",
-  (event) => {
-    event.preventDefault();
-  },
-  false
-);
