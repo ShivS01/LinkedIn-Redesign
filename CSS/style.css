@@ -38,7 +38,7 @@ body {
   background-size: 2.4em;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("svgs/linkedin.svg");
+  background-image: url("./svgs/linkedin.svg");
   cursor: pointer;
   display: block;
 }
@@ -63,7 +63,7 @@ body {
 .search-icon {
   width: 1.5em;
   height: 1.5em;
-  background-image: url("svgs/search.svg");
+  background-image: url("./svgs/search.svg");
   background-size: 0.75em;
 }
 .nav-icons {
@@ -81,32 +81,32 @@ body {
   opacity: 1;
 }
 .home-icon {
-  background-image: url("svgs/home.svg");
+  background-image: url("./svgs/home.svg");
   background-size: 1.2em;
   filter: invert(1);
 }
 .user-icon {
-  background-image: url("svgs/user-friends.svg");
+  background-image: url("./svgs/user-friends.svg");
   filter: invert(1);
   background-size: 1.2em;
 }
 .suit-icon {
-  background-image: url("svgs/suitcase.svg");
+  background-image: url("./svgs/suitcase.svg");
   background-size: 1.25em;
   filter: invert(1);
 }
 .chat-icon {
-  background-image: url("svgs/chat.svg");
+  background-image: url("./svgs/chat.svg");
   background-size: 1.5em;
   filter: invert(1);
 }
 .notify-icon {
-  background-image: url("svgs/bell.svg");
+  background-image: url("./svgs/bell.svg");
   background-size: 1.5em;
   filter: invert(1);
 }
 .me-icon {
-  background-image: url("svgs/user-circle.svg");
+  background-image: url("./svgs/user-circle.svg");
   background-size: 1.75em;
   filter: invert(1);
 }
@@ -116,7 +116,7 @@ body {
   filter: invert(1);
 } */
 .add-icon {
-  background-image: url("svgs/plus-circle.svg");
+  background-image: url("./svgs/plus-circle.svg");
   background-size: 1.25em;
 }
 .active {
@@ -137,7 +137,7 @@ body {
 .work {
   height: 1.5em;
   height: 1.5em;
-  background-image: url("svgs/th.svg");
+  background-image: url("./svgs/th.svg");
   filter: invert(1);
   background-size: 1.25em;
 }
@@ -190,7 +190,7 @@ body {
   background-size: 1.45em;
   margin-right: 0.35em;
   opacity: 0.75;
-  background-image: url("svgs/qrcode.svg");
+  background-image: url("./svgs/qrcode.svg");
 }
 .mobile-nav-bar {
   display: none;
@@ -258,7 +258,7 @@ filter does not work for some reason, causing 2 icons to remain white while othe
 .more-icon {
   width: 2em;
   height: 2em;
-  background-image: url("svgs/ellipsis-h.svg");
+  background-image: url("./svgs/ellipsis-h.svg");
   /* transform: rotate(90deg); */
   background-size: 1.5em;
   border-radius: 50%;
@@ -318,7 +318,7 @@ filter does not work for some reason, causing 2 icons to remain white while othe
   margin-left: 0.25em;
 }
 .globe-icon {
-  background-image: url("svgs/globe-americas.svg");
+  background-image: url("./svgs/globe-americas.svg");
 }
 .follow {
   padding: 0.5em 0.85em;
@@ -392,14 +392,14 @@ filter does not work for some reason, causing 2 icons to remain white while othe
   font-size: 0.7em;
 }
 .like-icon {
-  background-image: url("svgs/thumbs-up.svg");
+  background-image: url("./svgs/thumbs-up.svg");
   transform: scaleX(-0.9);
 }
 .info-icon {
-  background-image: url("svgs/lightbulb-on.svg");
+  background-image: url("./svgs/lightbulb-on.svg");
 }
 .love-icon {
-  background-image: url("svgs/heart.svg");
+  background-image: url("./svgs/heart.svg");
   transform: scaleX(0.9);
 }
 .votes {
@@ -430,17 +430,17 @@ filter does not work for some reason, causing 2 icons to remain white while othe
   margin-right: 0.5em;
 }
 .like-i {
-  background-image: url("svgs/thumbs-up.svg");
+  background-image: url("./svgs/thumbs-up.svg");
   transform: scaleX(-1);
 }
 .comment-icon {
-  background-image: url("svgs/comment-alt-lines.svg");
+  background-image: url("./svgs/comment-alt-lines.svg");
 }
 .share-icon {
-  background-image: url("svgs/share.svg");
+  background-image: url("./svgs/share.svg");
 }
 .send-icon {
-  background-image: url("svgs/paper-plane.svg");
+  background-image: url("./svgs/paper-plane.svg");
 }
 @media only screen and (max-width: 1300px) {
   .main-navbar {
@@ -615,48 +615,48 @@ hr {
 }
 
 .group-icon {
-  background-image: url("svgs/user-friends.svg");
+  background-image: url("./svgs/user-friends.svg");
   transform: scale(0.5);
 }
 .secret-icon {
-  background-image: url("svgs/lock-alt.svg");
+  background-image: url("./svgs/lock-alt.svg");
   transform: scale(0.5);
 }
 .channel-icon {
-  background-image: url("svgs/bullhorn.svg");
+  background-image: url("./svgs/bullhorn.svg");
   transform: scale(0.5);
 }
 .contact-icon {
-  background-image: url("svgs/user.svg");
+  background-image: url("./svgs/user.svg");
   transform: scale(0.5);
 }
 .call-icon {
-  background-image: url("svgs/phone-alt.svg");
+  background-image: url("./svgs/phone-alt.svg");
   transform: scale(0.5);
 }
 .saved-icon {
-  background-image: url("svgs/bookmark.svg");
+  background-image: url("./svgs/bookmark.svg");
   transform: scale(0.5);
 }
 .setting-icon {
-  background-image: url("svgs/cog.svg");
+  background-image: url("./svgs/cog.svg");
   transform: scale(0.5);
 }
 .invite-icon {
-  background-image: url("svgs/user-plus.svg");
+  background-image: url("./svgs/user-plus.svg");
   transform: scale(0.5);
 }
 .help-icon {
-  background-image: url("svgs/question-circle.svg");
+  background-image: url("./svgs/question-circle.svg");
   transform: scale(0.5);
 }
 .theme-icon {
-  background-image: url("svgs/moon.svg");
+  background-image: url("./svgs/moon.svg");
   filter: invert(1);
   transform: scale(0.5);
 }
 .expand-icon {
-  background-image: url("svgs/chevron-down.svg");
+  background-image: url("./svgs/chevron-down.svg");
   filter: invert(1);
   transform: scale(0.4);
 }
