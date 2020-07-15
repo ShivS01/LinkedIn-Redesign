@@ -12,15 +12,13 @@ for (var i = 0; i < elem.length; i++) {
 }
 
 const sideMenu = document.getElementById("ham-menu");
-const nav = document.querySelector(".side-nav");
 const overlay = document.querySelector(".overlay");
+const sideBar = document.querySelector(".side-nav");
 
 sideMenu.addEventListener("click", () => {
   overlay.classList.add("show");
-  //   nav.classList.add("show");
 });
 
-overlay.addEventListener("click", () => {
-  //   nav.classList.remove("show");
-  overlay.classList.remove("show");
+overlay.addEventListener("click", (e) => {
+  if (e.target == overlay) overlay.classList.remove("show");
 });
