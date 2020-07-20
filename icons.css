@@ -15,7 +15,8 @@
   background-image: url("./svgs/edit.svg");
 }
 .more-icon {
-  background-image: url("./svgs/ellipsis-v.svg");
+  background-image: url("./svgs/ellipsis-h.svg");
+  transform: rotate(90deg);
 }
 .search-icon {
   background-image: url("./svgs/search.svg");
@@ -26,11 +27,34 @@
 
 /* profile pictures */
 .profile {
+  margin: 8px;
   padding: 0;
   background-image: url("./img/profile.jpg");
-  width: 2.2em;
-  height: 2.2em;
-  background-size: 4em;
+  width: 50px;
+  height: 50px;
+  background-size: 100px;
   border-radius: 50%;
   margin-right: 16px;
+}
+.batman {
+  background-image: url("./img/batman.jpg");
+}
+.justice {
+  background-image: url("./img/DC.jpg");
+}
+.joker {
+  background-image: url("./img/joker.jpg");
+}
+.ironman {
+  background-image: url("./img/ironman.jpg");
+}
+.avengers {
+  background-image: url("./img/Avengers.jpg");
+  background-size: 4em;
+}
+.doge {
+  background-image: url("./img/doge.jpg");
+}
+.meme {
+  background-image: url("./img/meme.jpg");
 }
