@@ -1,0 +1,36 @@
+.icon {
+  width: 1em;
+  height: 1em;
+  background-size: 1.2em;
+  padding: 1.2em;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: block;
+}
+.back-icon {
+  background-image: url("./svgs/arrow-left.svg");
+}
+.message-icon {
+  background-image: url("./svgs/edit.svg");
+}
+.more-icon {
+  background-image: url("./svgs/ellipsis-v.svg");
+}
+.search-icon {
+  background-image: url("./svgs/search.svg");
+}
+.slider-icon {
+  background-image: url("./svgs/sliders-h.svg");
+}
+
+/* profile pictures */
+.profile {
+  padding: 0;
+  background-image: url("./img/profile.jpg");
+  width: 2.2em;
+  height: 2.2em;
+  background-size: 4em;
+  border-radius: 50%;
+  margin-right: 16px;
+}
